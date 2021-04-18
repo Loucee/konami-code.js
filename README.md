@@ -27,5 +27,10 @@ Once the code is entered successfully you can reset by setting `KonamiCode.cheat
 ## Installation
 Include either konami-code.min.js **and** konami-code.min.css on the page you want to use it on *or* include the [single file version](https://github.com/Loucee/konami-code.js/blob/main/release/one-file/konami-code.min.js)
 
+```html
+<link rel="stylesheet" href="css/konami-code.min.css">
+<script type="text/javascript" src="js/konami-code.min.js"></script>
+```
+
 ## License
 MIT
