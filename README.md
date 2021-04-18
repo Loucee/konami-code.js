@@ -25,8 +25,6 @@ KonamiCode.onNext = function(keyCode) {
 Once the code is entered successfully you can reset by setting `KonamiCode.cheatsOn` back to false
 
 ## Installation
-konami-code.js requires [jQuery](https://jquery.com/) to run.
-
 Include either konami-code.min.js **and** konami-code.min.css on the page you want to use it on *or* include the [single file version]()
 
 ## License
