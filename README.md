@@ -8,15 +8,15 @@ You can see the script in action on [my website.](https://loucee.dev)
 If you would like to change the effects on the code, simply override the events in the script:
 
 ```js
-KonamiCode.onDone = function() {
+KonamiCode.onComplete = function() {
   // Konami code finished successfully
 }
 
-KonamiCode.onFail = function() {
+KonamiCode.onFailed = function() {
   // Konami code sequence interrupted
 }
 
-KonamiCode.onNext = function(keyCode) {
+KonamiCode.onKeyPressed = function(keyCode) {
   // On correct key input
   // keyCode for the pressed key is passed to this function
 }
